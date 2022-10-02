@@ -1,3 +1,12 @@
+//Multiplos de 3,5 até 100!!
+
+const express = require ('express');
+const app = express();
+
+app.get ('/',(req,res) => {
+    return res.json("funcionando")
+});
+
 somar (100);
 
 function somar (limite){
@@ -12,3 +21,6 @@ function somar (limite){
     }
     console.log (multiplosDe3 + multiplosDe5);
 }
+app.listen (3000,() =>{
+    alert (Funcionando)
+    });
